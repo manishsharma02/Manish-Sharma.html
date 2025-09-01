@@ -1,0 +1,130 @@
+h1{
+    text-align: center;
+    color: #60a5fa;
+    line-height: 0.2;
+}
+header{
+    color:#60a5fa ;
+}
+
+body{
+    background-color: #0a0f1c;
+}
+h4{
+    text-align: center;
+    color: rgb(240, 236, 245);
+}
+button {
+    background: linear-gradient(90deg, #2563EB, #3B82F6);
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+    margin: 20px auto;
+  
+}
+.button.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #3B82F6;
+}
+
+h4{
+    line-height: 0.2;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #3B82F6;
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px #3B82F6;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: #60A5FA;
+}
+
+.card p {
+  color: #9CA3AF;
+}
+
+.icon {
+  font-size: 30px;
+  color: #00FFFF;
+}
+
+/* How It Works */
+.how-it-works {
+  padding: 50px 20px;
+}
+
+.how-it-works h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.step {
+  max-width: 220px;
+}
+p{
+    color: #2563EB;
+}
+h2{
+    color: #2563EB;
+}
+
+.circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #517ec5;
+  color: #e4bdbd;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #4261b1;
+}
+
+.footer a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #9CA3AF;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #60A5FA;
+}
